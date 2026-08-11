@@ -7,6 +7,8 @@ dependencies, no framework. Open `index.html` in a browser and it works.
 ├── index.html          Home
 ├── menu.html           Full menu
 ├── assets/css/styles.css
+├── assets/css/fonts.css
+├── assets/fonts/        Self-hosted woff2 (no third-party requests)
 ├── assets/js/main.js
 ├── favicon.svg
 ├── site.webmanifest
@@ -46,28 +48,62 @@ Every colour on the site resolves from four primitives at the top of
 
 ```css
 :root {
-  --brand-choc:    #3e2415;  /* dark chocolate — logo mark, primary buttons */
-  --brand-cream:   #f7eee1;  /* cream — page background */
-  --brand-caramel: #d99c4a;  /* caramel — accents, CTA, highlights */
-  --brand-berry:   #b4432f;  /* berry red — used sparingly */
+  --brand-maroon: #300c0c;  /* deep oxblood — the logo circle */
+  --brand-cream:  #fadcba;  /* peachy cream — the wordmark */
+  --brand-gold:   #d9a45b;  /* caramel gold — right half of the heart */
+  --brand-berry:  #c2492f;  /* strawberry red — illustrations only */
 }
 ```
 
-The tints beneath them (`--choc-900` … `--cream-300`, `--caramel-300` …
-`--caramel-700`) are the ramp actually referenced by components, and the
-semantic layer (`--bg`, `--text`, `--accent`, `--line`, …) maps that ramp onto
-roles. To re-theme:
+These are sampled from the brand mark. The tints beneath them (`--maroon-900` …
+`--maroon-300`, `--cream-50` … `--cream-300`, `--gold-300` … `--gold-700`) are
+the ramp actually referenced by components, and the semantic layer (`--bg`,
+`--text`, `--accent`, `--line`, `--btn-primary-*`, …) maps that ramp onto roles.
+To re-theme:
 
-1. Set the four `--brand-*` values to the real logo colours.
-2. Update the matching stops in the `--choc-*` / `--cream-*` / `--caramel-*`
+1. Set the four `--brand-*` values.
+2. Update the matching stops in the `--maroon-*` / `--cream-*` / `--gold-*`
    ramps so the light and dark scales stay consistent.
-3. Update the hard-coded hexes in three places CSS variables cannot reach:
-   `favicon.svg`, the `theme_color` / `background_color` in
-   `site.webmanifest`, and the two `<meta name="theme-color">` tags in each
-   HTML file.
+3. Update the hard-coded hexes in the places CSS variables cannot reach:
+   `favicon.svg`, the inline logo SVG in each HTML file (an SVG used as an
+   icon cannot read page variables), the `theme_color` / `background_color`
+   in `site.webmanifest`, and the two `<meta name="theme-color">` tags per
+   page.
 
 Check contrast after any change — body text should stay at 4.5:1 or better
 against its background in both themes.
+
+## The logo
+
+The mark is inline SVG in the header and footer of both pages: a chevron-heart
+split cream/gold on an oxblood disc, matching the profile logo. It carries its
+own dark ground, so the cream half stays visible in light and dark themes
+alike. `favicon.svg` is the same mark on a rounded square.
+
+The wordmark is live HTML text (`.brand__name`), not an image — set in Fredoka
+and lowercased in CSS via `text-transform`, so the DOM keeps "Almyro Glyko"
+properly capitalised for search engines and screen readers while the page shows
+the lowercase brand styling.
+
+## Fonts
+
+Self-hosted in `assets/fonts/` (~208 KB of variable woff2), declared in
+`assets/css/fonts.css`. There is no request to Google Fonts at runtime.
+
+| Face | Role | Subsets |
+| --- | --- | --- |
+| Fredoka | Display — closest free match to the logo wordmark | latin, latin-ext |
+| Comfortaa | Greek display — Fredoka ships no Greek glyphs | greek |
+| Inter | Body | latin, latin-ext, greek |
+
+`--font-display` lists Fredoka first and Comfortaa behind it, so Latin headings
+get Fredoka and Greek headings fall through to Comfortaa automatically. Because
+Comfortaa reads lighter at the same weight, display type steps up to 700 while
+`data-lang="el"` is set.
+
+To change a face, refetch the woff2 from Google Fonts, drop it in
+`assets/fonts/`, and update the matching `@font-face` in `fonts.css` plus the
+two `<link rel="preload">` tags in each page.
 
 ## Editing content
 
@@ -125,9 +161,9 @@ The section nav and scrollspy pick up new sections automatically as long as the
 
 ## Verified
 
-Checked in Chromium at 320 / 390 / 768 / 1024 / 1440 / 1920px — no horizontal
-overflow on either page, no console errors, and all content visible with
-JavaScript disabled.
+Checked in Chromium at 320 / 390 / 768 / 1024 / 1440 / 1920px, in both English
+and Greek — no horizontal overflow on either page, no console errors, and all
+content visible with JavaScript disabled.
 
 ## Content accuracy
 

@@ -5,8 +5,8 @@
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#f7eee1",
-  "theme_color": "#3e2415",
+  "background_color": "#fff8f0",
+  "theme_color": "#300c0c",
   "lang": "en",
   "categories": ["food", "restaurant"],
   "icons": [
