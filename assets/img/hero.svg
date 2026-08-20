@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1150" role="img" aria-label="Anafi handmade crochet bag">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#e6f2ef"/>
+      <stop offset="0.55" stop-color="#cfe6e1"/>
+      <stop offset="1" stop-color="#e8ddc7"/>
+    </linearGradient>
+    <pattern id="knit" width="30" height="22" patternUnits="userSpaceOnUse">
+      <rect width="30" height="22" fill="#dedcd7"/>
+      <g fill="#f7f4ef" stroke="#bcb9b6" stroke-width="1.1">
+        <rect x="1.5" y="1.5" width="12" height="19" rx="6"/>
+        <rect x="16.5" y="-9.5" width="12" height="19" rx="6"/>
+        <rect x="16.5" y="12.5" width="12" height="19" rx="6"/>
+      </g>
+    </pattern>
+    <pattern id="knitb" width="30" height="22" patternUnits="userSpaceOnUse">
+      <rect width="30" height="22" fill="#8ebeb8"/>
+      <g fill="#9ed3cd" stroke="#78a09c" stroke-width="1.1">
+        <rect x="1.5" y="1.5" width="12" height="19" rx="6"/>
+        <rect x="16.5" y="-9.5" width="12" height="19" rx="6"/>
+        <rect x="16.5" y="12.5" width="12" height="19" rx="6"/>
+      </g>
+    </pattern>
+    <clipPath id="body"><path d="M262 468 L638 468 Q668 468 668 498 L668 826 Q668 856 638 856 L262 856 Q232 856 232 826 L232 498 Q232 468 262 468 Z"/></clipPath>
+  </defs>
+  <rect width="900" height="1150" fill="url(#bg)"/>
+  <circle cx="690" cy="230" r="196" fill="#b9ddd8" opacity="0.42"/>
+  <path d="M0 946 Q225 886 450 946 T900 946 L900 1150 L0 1150 Z" fill="#dcd0b6" opacity="0.55"/>
+  <path d="M0 1006 Q225 946 450 1006 T900 1006" fill="none" stroke="#c9bda2" stroke-width="4" opacity="0.5"/>
+  <g clip-path="url(#body)">
+    <rect x="0" y="0" width="900" height="1150" fill="url(#knit)"/>
+    <rect x="0" y="640" width="900" height="66" fill="url(#knitb)"/>
+    <rect x="0" y="746" width="900" height="66" fill="url(#knitb)"/>
+  </g>
+  <path d="M262 468 L638 468 Q668 468 668 498 L668 826 Q668 856 638 856 L262 856 Q232 856 232 826 L232 498 Q232 468 262 468 Z" fill="none" stroke="#888683" stroke-width="5" stroke-linejoin="round" opacity="0.5"/>
+  <path d="M318 476 C318 336 412 336 412 476" fill="none" stroke="#efe8dc" stroke-width="20" stroke-linecap="round"/>
+  <path d="M318 476 C318 336 412 336 412 476" fill="none" stroke="#aca79e" stroke-width="20" stroke-linecap="round" stroke-dasharray="3 9" opacity="0.55"/>
+  <path d="M488 476 C488 336 582 336 582 476" fill="none" stroke="#efe8dc" stroke-width="20" stroke-linecap="round"/>
+  <path d="M488 476 C488 336 582 336 582 476" fill="none" stroke="#aca79e" stroke-width="20" stroke-linecap="round" stroke-dasharray="3 9" opacity="0.55"/>
+  <circle cx="450" cy="704" r="20" fill="#c6a25c" opacity="0.9"/>
+  <rect x="406" y="792" width="88" height="30" rx="7" fill="#c6a25c" opacity="0.85"/>
+  <rect x="416" y="804" width="68" height="4" rx="2" fill="#fdfaf3" opacity="0.85"/>
+</svg>
