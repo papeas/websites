@@ -70,7 +70,6 @@
   var fields = {
     img: document.getElementById('modalImg'),
     title: document.getElementById('modalTitle'),
-    price: document.getElementById('modalPrice'),
     desc: document.getElementById('modalDesc'),
     meta: document.getElementById('modalMeta'),
     cta: document.getElementById('modalCta')
@@ -82,7 +81,6 @@
     fields.img.src = d.img;
     fields.img.alt = d.name;
     fields.title.textContent = d.name;
-    fields.price.textContent = d.price;
     fields.desc.textContent = d.desc;
     fields.meta.textContent = d.meta;
     fields.cta.textContent = 'Ask about the ' + d.name;

@@ -1,17 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Product photo placeholder">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Pearl cloud bag">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1">
-      <stop offset="0" stop-color="#ece3d6"/>
-      <stop offset="1" stop-color="#d9c8b2"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.45" y2="1">
+      <stop offset="0" stop-color="#f7f3ea"/>
+      <stop offset="1" stop-color="#e9e1d2"/>
     </linearGradient>
+    <pattern id="knit" width="30" height="22" patternUnits="userSpaceOnUse">
+      <rect width="30" height="22" fill="#dedcd7"/>
+      <g fill="#f7f4ef" stroke="#bcb9b6" stroke-width="1.1">
+        <rect x="1.5" y="1.5" width="12" height="19" rx="6"/>
+        <rect x="16.5" y="-9.5" width="12" height="19" rx="6"/>
+        <rect x="16.5" y="12.5" width="12" height="19" rx="6"/>
+      </g>
+    </pattern>
+    <clipPath id="body"><path d="M250 486 L550 486 Q578 486 578 514 L578 738 Q578 766 550 766 L250 766 Q222 766 222 738 L222 514 Q222 486 250 486 Z"/></clipPath>
   </defs>
   <rect width="800" height="1000" fill="url(#bg)"/>
-  <circle cx="640" cy="200" r="150" fill="#4a3826" opacity="0.05"/>
-  <g fill="none" stroke="#4a3826" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.72">
-    <path d="M292 500 L508 500 L478 758 Q476 776 458 776 L342 776 Q324 776 322 758 Z" fill="#8a6a4d" fill-opacity="0.28"/>
-    <path d="M300 548 L500 548" stroke-width="5"/>
-    <circle cx="352" cy="548" r="9" stroke-width="5"/>
-    <circle cx="448" cy="548" r="9" stroke-width="5"/>
-    <path d="M342 506 C342 392 458 392 458 506"/>
+  <circle cx="608" cy="260" r="160" fill="#c8c2b5" opacity="0.45"/>
+  <g transform="translate(400 560) scale(1.05) translate(-400 -560) translate(0 -81)">
+  <g clip-path="url(#body)"><rect x="-200" y="-200" width="1200" height="1400" fill="url(#knit)"/>
+  </g>
+  <path d="M250 486 L550 486 Q578 486 578 514 L578 738 Q578 766 550 766 L250 766 Q222 766 222 738 L222 514 Q222 486 250 486 Z" fill="none" stroke="#888683" stroke-width="4" stroke-linejoin="round" opacity="0.55"/>
+  <path d="M288 494 C288 372 372 372 372 494" fill="none" stroke="#efe8dc" stroke-width="18" stroke-linecap="round"/>
+  <path d="M288 494 C288 372 372 372 372 494" fill="none" stroke="#aca79e" stroke-width="18" stroke-linecap="round" stroke-dasharray="3 9" opacity="0.55"/>
+  <path d="M428 494 C428 372 512 372 512 494" fill="none" stroke="#efe8dc" stroke-width="18" stroke-linecap="round"/>
+  <path d="M428 494 C428 372 512 372 512 494" fill="none" stroke="#aca79e" stroke-width="18" stroke-linecap="round" stroke-dasharray="3 9" opacity="0.55"/>
+  <circle cx="300" cy="560" r="8" fill="#fffdf8" stroke="#d9cfbc" stroke-width="2"/>
+  <circle cx="368" cy="600" r="8" fill="#fffdf8" stroke="#d9cfbc" stroke-width="2"/>
+  <circle cx="440" cy="566" r="8" fill="#fffdf8" stroke="#d9cfbc" stroke-width="2"/>
+  <circle cx="508" cy="610" r="8" fill="#fffdf8" stroke="#d9cfbc" stroke-width="2"/>
+  <circle cx="334" cy="664" r="8" fill="#fffdf8" stroke="#d9cfbc" stroke-width="2"/>
+  <circle cx="470" cy="690" r="8" fill="#fffdf8" stroke="#d9cfbc" stroke-width="2"/>
+  <rect x="363" y="716" width="74" height="26" rx="6" fill="#c6a25c" opacity="0.85"/>
+  <rect x="371" y="726" width="58" height="3" rx="1.5" fill="#fdfaf3" opacity="0.85"/>
   </g>
 </svg>

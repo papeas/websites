@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Midnight bag with gold chain">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.45" y2="1">
+      <stop offset="0" stop-color="#e5ece3"/>
+      <stop offset="1" stop-color="#d0dcd1"/>
+    </linearGradient>
+    <pattern id="knit" width="30" height="22" patternUnits="userSpaceOnUse">
+      <rect width="30" height="22" fill="#2a2a2c"/>
+      <g fill="#2f2f31" stroke="#242425" stroke-width="1.1">
+        <rect x="1.5" y="1.5" width="12" height="19" rx="6"/>
+        <rect x="16.5" y="-9.5" width="12" height="19" rx="6"/>
+        <rect x="16.5" y="12.5" width="12" height="19" rx="6"/>
+      </g>
+    </pattern>
+    <clipPath id="body"><path d="M252 508 L548 508 Q574 508 574 534 L574 742 Q574 768 548 768 L252 768 Q226 768 226 742 L226 534 Q226 508 252 508 Z"/></clipPath>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="608" cy="260" r="160" fill="#b3bdb4" opacity="0.45"/>
+  <g transform="translate(400 560) scale(1.05) translate(-400 -560) translate(0 -74)">
+  <g clip-path="url(#body)"><rect x="-200" y="-200" width="1200" height="1400" fill="url(#knit)"/>
+  </g>
+  <path d="M252 508 L548 508 Q574 508 574 534 L574 742 Q574 768 548 768 L252 768 Q226 768 226 742 L226 534 Q226 508 252 508 Z" fill="none" stroke="#1a1a1b" stroke-width="4" stroke-linejoin="round" opacity="0.55"/>
+  <path d="M262 516 C250 356 550 356 538 516" fill="none" stroke="#c6a25c" stroke-width="13" stroke-linecap="round" stroke-dasharray="2 14"/>
+  <path d="M262 516 C250 356 550 356 538 516" fill="none" stroke="#e0c48a" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 14"/>
+  <rect x="363" y="706" width="74" height="26" rx="6" fill="#c6a25c" opacity="0.85"/>
+  <rect x="371" y="716" width="58" height="3" rx="1.5" fill="#fdfaf3" opacity="0.85"/>
+  </g>
+</svg>

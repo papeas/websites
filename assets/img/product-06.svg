@@ -1,18 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Product photo placeholder">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Espresso crochet tote">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1">
-      <stop offset="0" stop-color="#e6e3da"/>
-      <stop offset="1" stop-color="#d2cdbd"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.45" y2="1">
+      <stop offset="0" stop-color="#f7f3ea"/>
+      <stop offset="1" stop-color="#e9e1d2"/>
     </linearGradient>
+    <pattern id="knit" width="30" height="22" patternUnits="userSpaceOnUse">
+      <rect width="30" height="22" fill="#624433"/>
+      <g fill="#6d4c39" stroke="#533a2b" stroke-width="1.1">
+        <rect x="1.5" y="1.5" width="12" height="19" rx="6"/>
+        <rect x="16.5" y="-9.5" width="12" height="19" rx="6"/>
+        <rect x="16.5" y="12.5" width="12" height="19" rx="6"/>
+      </g>
+    </pattern>
+    <clipPath id="body"><path d="M212 424 L588 424 Q616 424 616 452 L616 758 Q616 786 588 786 L212 786 Q184 786 184 758 L184 452 Q184 424 212 424 Z"/></clipPath>
   </defs>
   <rect width="800" height="1000" fill="url(#bg)"/>
-  <circle cx="640" cy="200" r="150" fill="#41402f" opacity="0.05"/>
-  <g fill="none" stroke="#41402f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.72">
-    <rect x="292" y="470" width="216" height="312" rx="44" fill="#8a6a4d" fill-opacity="0.28"/>
-    <path d="M292 512 Q400 448 508 512 L508 592 Q400 636 292 592 Z"/>
-    <path d="M370 444 Q400 410 430 444"/>
-    <path d="M292 560 C246 620 250 706 296 748" stroke-width="5"/>
-    <path d="M508 560 C554 620 550 706 504 748" stroke-width="5"/>
-    <path d="M386 664 L414 664" stroke-width="9"/>
+  <circle cx="608" cy="260" r="160" fill="#c8c2b5" opacity="0.45"/>
+  <g transform="translate(400 560) scale(1.05) translate(-400 -560) translate(0 -55)">
+  <g clip-path="url(#body)"><rect x="-200" y="-200" width="1200" height="1400" fill="url(#knit)"/>
+  </g>
+  <path d="M212 424 L588 424 Q616 424 616 452 L616 758 Q616 786 588 786 L212 786 Q184 786 184 758 L184 452 Q184 424 212 424 Z" fill="none" stroke="#3c2a1f" stroke-width="4" stroke-linejoin="round" opacity="0.55"/>
+  <path d="M280 432 C280 300 380 300 380 432" fill="none" stroke="#7d5a44" stroke-width="18" stroke-linecap="round"/>
+  <path d="M280 432 C280 300 380 300 380 432" fill="none" stroke="#5a4131" stroke-width="18" stroke-linecap="round" stroke-dasharray="3 9" opacity="0.55"/>
+  <path d="M420 432 C420 300 520 300 520 432" fill="none" stroke="#7d5a44" stroke-width="18" stroke-linecap="round"/>
+  <path d="M420 432 C420 300 520 300 520 432" fill="none" stroke="#5a4131" stroke-width="18" stroke-linecap="round" stroke-dasharray="3 9" opacity="0.55"/>
+  <circle cx="400" cy="596" r="30" fill="#c9a26a" stroke="#9c7841" stroke-width="3"/>
+  <rect x="363" y="726" width="74" height="26" rx="6" fill="#c6a25c" opacity="0.85"/>
+  <rect x="371" y="736" width="58" height="3" rx="1.5" fill="#fdfaf3" opacity="0.85"/>
   </g>
 </svg>

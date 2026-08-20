@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" role="img" aria-label="A shelf of Anafi bags">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#eaf3f0"/>
+      <stop offset="1" stop-color="#e4dac4"/>
+    </linearGradient>
+    <pattern id="k1" width="30" height="22" patternUnits="userSpaceOnUse">
+      <rect width="30" height="22" fill="#dcd7cd"/>
+      <g fill="#f4efe4" stroke="#b9b6ad" stroke-width="1.1">
+        <rect x="1.5" y="1.5" width="12" height="19" rx="6"/>
+        <rect x="16.5" y="-9.5" width="12" height="19" rx="6"/>
+        <rect x="16.5" y="12.5" width="12" height="19" rx="6"/>
+      </g>
+    </pattern>
+    <pattern id="k2" width="30" height="22" patternUnits="userSpaceOnUse">
+      <rect width="30" height="22" fill="#8ebeb8"/>
+      <g fill="#9ed3cd" stroke="#78a09c" stroke-width="1.1">
+        <rect x="1.5" y="1.5" width="12" height="19" rx="6"/>
+        <rect x="16.5" y="-9.5" width="12" height="19" rx="6"/>
+        <rect x="16.5" y="12.5" width="12" height="19" rx="6"/>
+      </g>
+    </pattern>
+    <pattern id="k3" width="30" height="22" patternUnits="userSpaceOnUse">
+      <rect width="30" height="22" fill="#c6b394"/>
+      <g fill="#dcc7a5" stroke="#a7977d" stroke-width="1.1">
+        <rect x="1.5" y="1.5" width="12" height="19" rx="6"/>
+        <rect x="16.5" y="-9.5" width="12" height="19" rx="6"/>
+        <rect x="16.5" y="12.5" width="12" height="19" rx="6"/>
+      </g>
+    </pattern>
+    <clipPath id="c1"><path d="M170 336 L390 336 Q412 336 412 358 L412 528 Q412 550 390 550 L170 550 Q148 550 148 528 L148 358 Q148 336 170 336 Z"/></clipPath>
+    <clipPath id="c2"><path d="M452 392 L648 392 Q668 392 668 412 L668 550 L432 550 L432 412 Q432 392 452 392 Z"/></clipPath>
+    <clipPath id="c3"><path d="M712 424 L866 424 Q884 424 884 442 L884 550 L694 550 L694 442 Q694 424 712 424 Z"/></clipPath>
+  </defs>
+  <rect width="1000" height="760" fill="url(#bg)"/>
+  <circle cx="176" cy="150" r="132" fill="#b9ddd8" opacity="0.38"/>
+  <g clip-path="url(#c1)"><rect width="1000" height="760" fill="url(#k1)"/></g>
+  <g clip-path="url(#c2)"><rect width="1000" height="760" fill="url(#k2)"/></g>
+  <g clip-path="url(#c3)"><rect width="1000" height="760" fill="url(#k3)"/></g>
+  <path d="M170 336 L390 336 Q412 336 412 358 L412 528 Q412 550 390 550 L170 550 Q148 550 148 528 L148 358 Q148 336 170 336 Z" fill="none" stroke="#8d8577" stroke-width="4" stroke-linejoin="round" opacity="0.5"/>
+  <path d="M452 392 L648 392 Q668 392 668 412 L668 550 L432 550 L432 412 Q432 392 452 392 Z" fill="none" stroke="#4b7d79" stroke-width="4" stroke-linejoin="round" opacity="0.5"/>
+  <path d="M712 424 L866 424 Q884 424 884 442 L884 550 L694 550 L694 442 Q694 424 712 424 Z" fill="none" stroke="#8d7a58" stroke-width="4" stroke-linejoin="round" opacity="0.5"/>
+  <path d="M206 342 C206 262 266 262 266 342" fill="none" stroke="#efe8dc" stroke-width="14" stroke-linecap="round"/>
+  <path d="M206 342 C206 262 266 262 266 342" fill="none" stroke="#aca79e" stroke-width="14" stroke-linecap="round" stroke-dasharray="3 9" opacity="0.55"/>
+  <path d="M296 342 C296 262 356 262 356 342" fill="none" stroke="#efe8dc" stroke-width="14" stroke-linecap="round"/>
+  <path d="M296 342 C296 262 356 262 356 342" fill="none" stroke="#aca79e" stroke-width="14" stroke-linecap="round" stroke-dasharray="3 9" opacity="0.55"/>
+  <path d="M470 398 C462 318 638 318 630 398" fill="none" stroke="#e6f0ee" stroke-width="12" stroke-linecap="round"/>
+  <path d="M470 398 C462 318 638 318 630 398" fill="none" stroke="#a6adab" stroke-width="12" stroke-linecap="round" stroke-dasharray="3 9" opacity="0.55"/>
+  <path d="M736 430 A52 52 0 0 1 840 430" fill="none" stroke="#c9a26a" stroke-width="12" stroke-linecap="round"/>
+  <rect x="120" y="550" width="800" height="26" rx="9" fill="#cdbb99"/>
+  <rect x="120" y="550" width="800" height="26" rx="9" fill="none" stroke="#b19d78" stroke-width="3"/>
+  <path d="M160 634 L840 634" stroke="#c2b294" stroke-width="4" opacity="0.5"/>
+</svg>

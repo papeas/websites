@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" role="img" aria-label="Anafi mystery box">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#e7f2ef"/>
+      <stop offset="1" stop-color="#cfe3df"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="760" fill="url(#bg)"/>
+  <circle cx="726" cy="176" r="150" fill="#ffffff" opacity="0.34"/>
+  <g stroke="#a98a5f" stroke-width="5" stroke-linejoin="round">
+    <path d="M232 330 L668 330 L668 636 L232 636 Z" fill="#d9bf99"/>
+    <path d="M208 262 L692 262 L692 342 L208 342 Z" fill="#e5cfad"/>
+  </g>
+  <path d="M450 262 L450 636" stroke="#b9ddd8" stroke-width="34"/>
+  <path d="M208 296 L692 296" stroke="#b9ddd8" stroke-width="30"/>
+  <g fill="#b9ddd8" stroke="#7cb6b0" stroke-width="4">
+    <path d="M450 258 C378 258 350 196 396 176 C438 158 450 218 450 258 Z"/>
+    <path d="M450 258 C522 258 550 196 504 176 C462 158 450 218 450 258 Z"/>
+  </g>
+  <circle cx="450" cy="252" r="19" fill="#8fc9c3" stroke="#6aa9a3" stroke-width="4"/>
+  <circle cx="336" cy="486" r="62" fill="#fdfaf3" stroke="#c6a25c" stroke-width="4" opacity="0.95"/>
+  <text x="336" y="500" text-anchor="middle" fill="#2f7d78"
+        font-family="Parisienne, 'Brush Script MT', cursive" font-size="46">A</text>
+</svg>
