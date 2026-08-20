@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anafi Bags — Handpicked bags, made for everyday</title>
+<meta name="description" content="Anafi Bags is a small independent bag store. Totes, shoulder bags, crossbodies and evening pieces — chosen one at a time, shipped straight to your door.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Anafi Bags — Handpicked bags, made for everyday">
+<meta property="og:description" content="Totes, shoulder bags, crossbodies and evening pieces — chosen one at a time, shipped straight to your door.">
+<meta property="og:image" content="assets/img/hero.svg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true">A</span>
+      <span class="brand-text">
+        <span class="brand-name">Anafi Bags</span>
+        <span class="brand-sub">bag store</span>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#collection">Collection</a>
+      <a href="#story">Our story</a>
+      <a href="#order">How to order</a>
+      <a href="#care">Care</a>
+      <a href="#faq">FAQ</a>
+      <a class="nav-cta" href="https://www.instagram.com/anafi.bags_/" target="_blank" rel="noopener">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+        Message us
+      </a>
+    </nav>
+
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ───────────────────────── Hero ───────────────────────── -->
+  <section class="hero" id="top">
+    <div class="wrap hero-grid">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Independent bag store</p>
+        <h1>Bags you'll<br>reach for<br><em>every day.</em></h1>
+        <p class="lede">
+          A small, carefully kept collection — totes for long days, crossbodies for
+          light ones, and a few evening pieces worth dressing up for. Every bag is
+          chosen by hand, one at a time.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#collection">See the collection</a>
+          <a class="btn btn-ghost" href="https://www.instagram.com/anafi.bags_/" target="_blank" rel="noopener">Order on Instagram</a>
+        </div>
+        <ul class="hero-points">
+          <li>Limited pieces, restocked rarely</li>
+          <li>Island-wide delivery in 1–3 days</li>
+          <li>Ask us anything by DM</li>
+        </ul>
+      </div>
+
+      <div class="hero-media reveal">
+        <img src="assets/img/hero.svg" alt="Anafi Bags signature tote" width="900" height="1150" loading="eager">
+        <div class="hero-badge">
+          <span class="hero-badge-num">New</span>
+          <span class="hero-badge-txt">season<br>drop</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── Marquee ───────────────────────── -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Totes</span><span>•</span><span>Shoulder bags</span><span>•</span><span>Crossbodies</span><span>•</span><span>Bucket bags</span><span>•</span><span>Evening</span><span>•</span><span>Backpacks</span><span>•</span>
+      <span>Totes</span><span>•</span><span>Shoulder bags</span><span>•</span><span>Crossbodies</span><span>•</span><span>Bucket bags</span><span>•</span><span>Evening</span><span>•</span><span>Backpacks</span><span>•</span>
+    </div>
+  </div>
+
+  <!-- ───────────────────────── Collection ───────────────────────── -->
+  <section class="section" id="collection">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">The collection</p>
+        <h2>What's in store right now</h2>
+        <p class="section-lede">
+          Small batches, so pieces come and go. If something is sold out, send us a
+          message — we'll tell you when it's back.
+        </p>
+      </div>
+
+      <div class="filters reveal" role="group" aria-label="Filter bags by category">
+        <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" class="filter" data-filter="totes" aria-pressed="false">Totes</button>
+        <button type="button" class="filter" data-filter="shoulder" aria-pressed="false">Shoulder</button>
+        <button type="button" class="filter" data-filter="crossbody" aria-pressed="false">Crossbody</button>
+        <button type="button" class="filter" data-filter="evening" aria-pressed="false">Evening</button>
+        <button type="button" class="filter" data-filter="backpacks" aria-pressed="false">Backpacks</button>
+      </div>
+
+      <div class="grid products" id="productGrid" aria-live="polite">
+
+        <article class="card reveal" data-category="totes"
+                 data-name="Kyma Tote" data-price="€58"
+                 data-desc="A roomy everyday tote in soft grain leather. Fits a 14&quot; laptop, a water bottle and the rest of it. Interior zip pocket and a magnetic top closure."
+                 data-meta="38 × 30 × 12 cm · Soft grain leather · Sand, Black, Olive"
+                 data-img="assets/img/product-01.svg">
+          <div class="card-media">
+            <img src="assets/img/product-01.svg" alt="Kyma Tote" width="800" height="1000" loading="lazy">
+            <span class="tag tag-new">New in</span>
+            <button class="card-quick" type="button">Quick look</button>
+          </div>
+          <div class="card-body">
+            <h3>Kyma Tote</h3>
+            <p class="card-meta">Soft grain leather · 3 colours</p>
+            <p class="card-price">€58</p>
+          </div>
+        </article>
+
+        <article class="card reveal" data-category="shoulder"
+                 data-name="Aura Shoulder Bag" data-price="€64"
+                 data-desc="A structured shoulder bag with a fold-over flap and a slim adjustable strap. Sits neatly under the arm and holds far more than it looks."
+                 data-meta="26 × 18 × 9 cm · Pebbled leather · Cognac, Black"
+                 data-img="assets/img/product-02.svg">
+          <div class="card-media">
+            <img src="assets/img/product-02.svg" alt="Aura Shoulder Bag" width="800" height="1000" loading="lazy">
+            <button class="card-quick" type="button">Quick look</button>
+          </div>
+          <div class="card-body">
+            <h3>Aura Shoulder Bag</h3>
+            <p class="card-meta">Pebbled leather · 2 colours</p>
+            <p class="card-price">€64</p>
+          </div>
+        </article>
+
+        <article class="card reveal" data-category="crossbody"
+                 data-name="Nisi Crossbody" data-price="€46"
+                 data-desc="Small, light and hands-free. Phone, cards, keys and a lipstick — nothing more, which is the point. Long strap, adjustable to the hip."
+                 data-meta="20 × 15 × 6 cm · Vegan leather · Cream, Tan, Black"
+                 data-img="assets/img/product-03.svg">
+          <div class="card-media">
+            <img src="assets/img/product-03.svg" alt="Nisi Crossbody" width="800" height="1000" loading="lazy">
+            <span class="tag tag-hot">Bestseller</span>
+            <button class="card-quick" type="button">Quick look</button>
+          </div>
+          <div class="card-body">
+            <h3>Nisi Crossbody</h3>
+            <p class="card-meta">Vegan leather · 3 colours</p>
+            <p class="card-price">€46</p>
+          </div>
+        </article>
+
+        <article class="card reveal" data-category="shoulder"
+                 data-name="Ammos Bucket Bag" data-price="€52"
+                 data-desc="A relaxed bucket shape with a drawstring top and a lined interior. Slouches beautifully once you've carried it a few weeks."
+                 data-meta="24 × 28 × 14 cm · Suede-touch finish · Sand, Chocolate"
+                 data-img="assets/img/product-04.svg">
+          <div class="card-media">
+            <img src="assets/img/product-04.svg" alt="Ammos Bucket Bag" width="800" height="1000" loading="lazy">
+            <button class="card-quick" type="button">Quick look</button>
+          </div>
+          <div class="card-body">
+            <h3>Ammos Bucket Bag</h3>
+            <p class="card-meta">Suede-touch · 2 colours</p>
+            <p class="card-price">€52</p>
+          </div>
+        </article>
+
+        <article class="card reveal" data-category="evening"
+                 data-name="Selini Clutch" data-price="€38"
+                 data-desc="An envelope clutch with a soft gold clasp and a hidden chain, so it works held or worn. Made for dinners that run late."
+                 data-meta="27 × 15 × 4 cm · Satin finish · Ivory, Deep green"
+                 data-img="assets/img/product-05.svg">
+          <div class="card-media">
+            <img src="assets/img/product-05.svg" alt="Selini Clutch" width="800" height="1000" loading="lazy">
+            <span class="tag tag-low">Few left</span>
+            <button class="card-quick" type="button">Quick look</button>
+          </div>
+          <div class="card-body">
+            <h3>Selini Clutch</h3>
+            <p class="card-meta">Satin finish · 2 colours</p>
+            <p class="card-price">€38</p>
+          </div>
+        </article>
+
+        <article class="card reveal" data-category="backpacks"
+                 data-name="Thalassa Backpack" data-price="€72"
+                 data-desc="A soft-body backpack with a flap closure, padded straps and a sleeve for a laptop. Our pick for travel days and long commutes."
+                 data-meta="30 × 40 × 14 cm · Water-repellent canvas & leather trim · Black, Stone"
+                 data-img="assets/img/product-06.svg">
+          <div class="card-media">
+            <img src="assets/img/product-06.svg" alt="Thalassa Backpack" width="800" height="1000" loading="lazy">
+            <button class="card-quick" type="button">Quick look</button>
+          </div>
+          <div class="card-body">
+            <h3>Thalassa Backpack</h3>
+            <p class="card-meta">Canvas & leather · 2 colours</p>
+            <p class="card-price">€72</p>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="grid-empty" id="gridEmpty" hidden>Nothing in this category right now — try another, or ask us on Instagram.</p>
+
+      <p class="collection-foot reveal">
+        More pieces go up on Instagram first.
+        <a href="https://www.instagram.com/anafi.bags_/" target="_blank" rel="noopener">Follow @anafi.bags_ →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── Story ───────────────────────── -->
+  <section class="section section-alt" id="story">
+    <div class="wrap story-grid">
+      <div class="story-media reveal">
+        <img src="assets/img/atelier.svg" alt="Bags being prepared for shipping" width="1000" height="760" loading="lazy">
+      </div>
+      <div class="story-copy reveal">
+        <p class="eyebrow">Our story</p>
+        <h2>It started with one bag that wouldn't wear out.</h2>
+        <p>
+          Anafi Bags began the way most small shops do — with a search for one good
+          bag and a lot of disappointment along the way. Everything was either too
+          precious to use or fell apart by winter.
+        </p>
+        <p>
+          So we started sourcing ourselves: a handful of makers, small runs, honest
+          materials, and prices that don't pretend. Every piece we list is one we'd
+          carry ourselves, and we say no to a lot more than we say yes to.
+        </p>
+        <div class="stats">
+          <div class="stat"><span class="stat-num">300+</span><span class="stat-lbl">bags delivered</span></div>
+          <div class="stat"><span class="stat-num">12</span><span class="stat-lbl">pieces in store</span></div>
+          <div class="stat"><span class="stat-num">1–3</span><span class="stat-lbl">day delivery</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── How to order ───────────────────────── -->
+  <section class="section" id="order">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">How to order</p>
+        <h2>Three messages and it's on its way</h2>
+        <p class="section-lede">
+          We take orders straight through Instagram — no accounts, no checkout, no
+          fuss. Here's exactly how it goes.
+        </p>
+      </div>
+
+      <ol class="steps">
+        <li class="step reveal">
+          <span class="step-num">01</span>
+          <h3>Send us a DM</h3>
+          <p>Tell us which bag caught your eye and the colour you're after. Screenshots are perfect.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step-num">02</span>
+          <h3>We confirm & reserve</h3>
+          <p>We check stock, hold the piece for you for 24 hours, and send the total including delivery.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step-num">03</span>
+          <h3>Pay & receive</h3>
+          <p>Bank transfer, Revolut, or cash on delivery. Then it ships the same or next working day.</p>
+        </li>
+      </ol>
+
+      <div class="order-cta reveal">
+        <div>
+          <h3>Not sure which one?</h3>
+          <p>Tell us what you carry on a normal day and we'll point you to the right size. Genuinely — we like doing this.</p>
+        </div>
+        <a class="btn btn-primary" href="https://www.instagram.com/anafi.bags_/" target="_blank" rel="noopener">
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+          Message @anafi.bags_
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── Care ───────────────────────── -->
+  <section class="section section-alt" id="care">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Materials &amp; care</p>
+        <h2>Look after it and it'll look after you</h2>
+      </div>
+      <div class="grid care-grid">
+        <div class="care-card reveal">
+          <h3>Leather</h3>
+          <p>Wipe with a dry cloth, condition twice a year, and keep it out of direct sun. Scuffs settle into character.</p>
+        </div>
+        <div class="care-card reveal">
+          <h3>Canvas</h3>
+          <p>Spot-clean with mild soap and cold water. Air dry away from radiators — never in the machine.</p>
+        </div>
+        <div class="care-card reveal">
+          <h3>Suede finish</h3>
+          <p>Brush gently in one direction to lift the nap. Keep away from rain, or use a suede protector spray first.</p>
+        </div>
+        <div class="care-card reveal">
+          <h3>Storage</h3>
+          <p>Stuff with tissue so the shape holds, and store upright in the dust bag that came with it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── FAQ ───────────────────────── -->
+  <section class="section" id="faq">
+    <div class="wrap faq-wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Good to know</p>
+        <h2>Questions we get a lot</h2>
+      </div>
+
+      <div class="accordion reveal">
+        <details>
+          <summary>How long does delivery take?<span class="chev" aria-hidden="true"></span></summary>
+          <div class="acc-body"><p>Orders placed before 2pm ship the same working day. Local delivery lands in 1–3 days; elsewhere it's usually 3–7 days and we'll send you a tracking number either way.</p></div>
+        </details>
+        <details>
+          <summary>What does delivery cost?<span class="chev" aria-hidden="true"></span></summary>
+          <div class="acc-body"><p>A flat fee locally, and free on orders over €70. For anywhere else we quote you the exact cost in the DM before you pay anything.</p></div>
+        </details>
+        <details>
+          <summary>Can I return or exchange a bag?<span class="chev" aria-hidden="true"></span></summary>
+          <div class="acc-body"><p>Yes — within 14 days, unused and in its dust bag. Exchanges are free; for refunds the return postage is on you. Just message us first so we can expect it.</p></div>
+        </details>
+        <details>
+          <summary>How do I pay?<span class="chev" aria-hidden="true"></span></summary>
+          <div class="acc-body"><p>Bank transfer, Revolut, or cash on delivery for local orders. We'll send the details once your piece is reserved.</p></div>
+        </details>
+        <details>
+          <summary>Something sold out — will it come back?<span class="chev" aria-hidden="true"></span></summary>
+          <div class="acc-body"><p>Often, but not always: runs are small. Send us a message and we'll add you to the list for that piece and tell you the moment it lands.</p></div>
+        </details>
+        <details>
+          <summary>Do you take custom or wholesale orders?<span class="chev" aria-hidden="true"></span></summary>
+          <div class="acc-body"><p>For larger orders and gifting, yes — get in touch and tell us the quantity and the date you need them by.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── Contact ───────────────────────── -->
+  <section class="cta-band" id="contact">
+    <div class="wrap cta-inner reveal">
+      <p class="eyebrow eyebrow-light">Say hello</p>
+      <h2>Your next bag is one message away.</h2>
+      <p>We answer DMs every day, usually within a couple of hours.</p>
+      <div class="cta-actions">
+        <a class="btn btn-light" href="https://www.instagram.com/anafi.bags_/" target="_blank" rel="noopener">
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+          @anafi.bags_
+        </a>
+        <a class="btn btn-outline-light" href="mailto:hello@anafibags.com">hello@anafibags.com</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">A</span>
+        <span class="brand-text"><span class="brand-name">Anafi Bags</span></span>
+      </a>
+      <p>Handpicked bags for everyday carry. Small batches, honest materials.</p>
+    </div>
+    <nav class="footer-col" aria-label="Shop">
+      <h4>Shop</h4>
+      <a href="#collection">All bags</a>
+      <a href="#collection">New in</a>
+      <a href="#care">Materials &amp; care</a>
+    </nav>
+    <nav class="footer-col" aria-label="Help">
+      <h4>Help</h4>
+      <a href="#order">How to order</a>
+      <a href="#faq">Delivery &amp; returns</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="footer-col">
+      <h4>Follow</h4>
+      <a href="https://www.instagram.com/anafi.bags_/" target="_blank" rel="noopener">Instagram</a>
+      <a href="mailto:hello@anafibags.com">Email us</a>
+    </div>
+  </div>
+  <div class="wrap footer-base">
+    <p>© <span id="year">2026</span> Anafi Bags. All rights reserved.</p>
+    <p>Made with care.</p>
+  </div>
+</footer>
+
+<!-- ───────────────────────── Quick look modal ───────────────────────── -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-panel" role="document">
+    <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+    <div class="modal-media"><img id="modalImg" src="" alt=""></div>
+    <div class="modal-body">
+      <h3 id="modalTitle"></h3>
+      <p class="modal-price" id="modalPrice"></p>
+      <p class="modal-desc" id="modalDesc"></p>
+      <p class="modal-meta" id="modalMeta"></p>
+      <a class="btn btn-primary" id="modalCta" href="https://www.instagram.com/anafi.bags_/" target="_blank" rel="noopener">Ask about this bag</a>
+      <p class="modal-note">Orders are taken by Instagram DM — we'll confirm stock and colour with you.</p>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
