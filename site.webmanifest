@@ -1,0 +1,20 @@
+{
+  "name": "Almyro Glyko Creperie",
+  "short_name": "Almyro Glyko",
+  "description": "Freshly made French sweet and savoury crêpes, Belgian waffles and coffee in Nicosia since 1999.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fff8f0",
+  "theme_color": "#300c0c",
+  "lang": "en",
+  "categories": ["food", "restaurant"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
